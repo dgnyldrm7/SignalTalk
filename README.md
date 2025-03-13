@@ -1,4 +1,4 @@
-# SignalTalk SignalTalk is a real-time chat application built using ASP.NET Core API for the backend and HTML & JavaScript for the frontend. This project leverages SignalR for real-time communication. 
+#SignalTalk is a real-time chat application built using ASP.NET Core API for the backend and HTML & JavaScript for the frontend. This project leverages SignalR for real-time communication. 
 
 ## 📌 Features - Real-time messaging with SignalR - Simple frontend built with HTML & JavaScript - Backend API developed using ASP.NET Core - Lightweight and easy to deploy 
 
