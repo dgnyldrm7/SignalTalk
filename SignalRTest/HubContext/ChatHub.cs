@@ -19,7 +19,7 @@ namespace SignalRTest.HubContext
             {
                 await Clients.Client(connectionId).SendAsync("SendToUser", senderId, message);
 
-                await Clients.Caller.SendAsync("SendToUser", "Ben", message);
+                //await Clients.Caller.SendAsync("SendToUser", "Ben", message);
             }
             else
             {

@@ -24,9 +24,6 @@ builder.Services.AddCors(options =>
     });
 });
 
-
-
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -38,6 +35,8 @@ if (app.Environment.IsDevelopment())
 
 // Hub'ý belirli bir endpoint'e baðladýk. Keyfidir!
 app.MapHub<ChatHub>("/chatHub");
+
+app.MapHub<ExampleTypeSafeHub>("/exampleTypeSafeHub");
 
 app.UseCors();
 
